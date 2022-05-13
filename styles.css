@@ -210,6 +210,7 @@ body {
 /* BODY CONTENT START */
 
 .mainContent {
+    border: 1px solid red;
     background-image: url();
     background-position: center;
     background-size: cover;
@@ -914,15 +915,64 @@ body {
         font-size: 20px;
     }
 
+    .titleBox > #WWOTC {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .titleBox > #OWFC {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .titleBox > #VOT {
+        text-align: center;
+        font-size: 40px;
+    }
+
     .offerBox {
         margin-top: 100px;
         height: 1550px;
+
+        display: none;
+    }
+
+    .offferCard {
+        width: 90%;
+    }
+
+    .offferCard > .displayImage1, .displayImage2, .displayImage3  {
+        height: 100%;
+        width: 90%;
+    }
+
+    .offferCard > #number, #cardTitle, #offDescription {
+        display: none;
+    }
+
+
+    .offerBox2 {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+        height: 2500px;
+    }
+
+    .offerContent2 {
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+
+        height: 2500px;
+    }
+
+    .offerContent {
+        display: flex;
     }
 
     .offerCardThree {
-        position: absolute;
-
-        top: 880px;
+        position: static;
     }
 
     .aboutBox {
@@ -982,7 +1032,7 @@ body {
     }
 
     .footer {
-        height: 1400px;
+        height: 900px;
     }
 
     .footerInfoCard {
