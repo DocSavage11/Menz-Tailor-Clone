@@ -1,0 +1,1182 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Castoro:ital@1&family=Charm&family=Cormorant+Garamond:wght@300&family=Courgette&family=Dancing+Script&family=Gabriela&family=Graduate&family=Josefin+Sans:wght@700&family=Merienda&family=Merienda+One&family=Montserrat:ital,wght@0,100;0,400;0,800;1,400&family=Nunito:ital,wght@0,400;1,300&family=Old+Standard+TT&family=Pacifico&family=Quintessential&family=Radio+Canada:wght@500&family=Ramaraja&family=Roboto:wght@100;400&family=UnifrakturMaguntia&family=Unna&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    background-color: #0b1416;
+    position: relative;
+}
+
+/* HEADER START */
+
+.heroSection {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    position: relative;
+
+    height: 560px;
+    width: 100%;
+}
+
+
+/* NAV START */
+
+.navBar {
+    background-color: white;
+    display: flex;
+
+    margin: auto;
+    margin-top: 0px;
+
+
+    height: 90px;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+}
+
+.navLinkContainer {
+    border: 1px solid black;
+    /* background-color: #463f33;
+    border-radius: 20px;
+
+    padding: 8px; */
+    gap:50px;
+
+    display: flex;
+
+    margin: auto;
+    width: auto;
+}
+
+#navLink {
+    color: black;
+    transition: 0.5s;
+}
+
+#navLink a {
+    color: black;
+}
+
+#navLink a:visited {
+    color: black;
+}
+
+#navLink a:active {
+    color: black;
+}
+
+#navLink a:hover {
+    transform: scale("");
+}
+
+.visitUs {
+    background-color: #c6a16e;
+
+    display: flex;
+
+    margin: auto;
+    margin-right: 0px;
+
+    height: 100%;
+    width: 240px;
+}
+
+.visitUs a {
+    margin: auto;
+}
+
+#visitUs {
+    color: white;
+    font-size: 25px;
+    font-weight: 500px;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+}
+
+#menuIcon {
+    margin: auto;
+    margin-right: 0px;
+
+    height: 50px;
+
+    display: none;
+}
+/* NAV END */
+
+
+.bigHeroboard {
+    background-image: url(/Assets/Images/Hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    top: 90px;
+    right: 0;
+
+    height: 830px;
+    width: 1770px;
+}
+
+.discoverCard {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    left: 125px;
+    top: 220px;
+
+}
+
+#slogan {
+    color: white;
+    font-size: 100px;
+    font-family:'Josefin Sans', sans-serif;
+
+    line-height: 1.5em;
+}
+
+.miniSlogan {
+    display: flex;
+
+    margin: auto;
+    margin-left: 0px;
+
+
+}
+
+#longGoldDash {
+    height: 20px;
+    width: 70px;
+
+    margin: auto;
+    margin-right: 20px;
+}
+
+#PFYP {
+    color: #c6a16e;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+}
+
+/* HEADER END */
+
+
+/* BODY CONTENT START */
+
+.mainContent {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: #0b1416;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+
+    z-index: -1;
+}
+
+/* OFFER CONTENT START */
+
+.offerBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 635px;
+
+    position: relative;
+
+    padding: 20px;
+
+    height: 910px;
+    width: 100%;
+}
+
+.offerBox2 {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 635px;
+
+    position: relative;
+
+    padding: 20px;
+
+    height: 910px;
+    width: 100%;
+
+    display: none;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#WW0 {
+    color: #c6a16e;
+    font-size: 35px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#WWOTC {
+    color: #c6a16e;
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: auto;
+}
+
+.offerContent {
+    display: flex;
+
+    margin: auto;
+    margin-top: 0px;
+
+    gap: 105px;
+}
+
+.offferCard {
+    margin: auto;
+
+
+    height: 640px;
+    width: 300px;
+}
+
+.displayImage1 {
+    background-image: url(/Assets/Images/Offer-Display-Image-1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: auto;
+
+
+    height: 340px;
+    width: 300px;
+}
+
+.displayImage2 {
+    background-image: url(/Assets/Images/Offer-Display-Image-2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: auto;
+
+
+    height: 340px;
+    width: 300px;
+}
+
+.displayImage3 {
+    background-image: url(/Assets/Images/Offer-Display-Image-3);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: auto;
+
+
+    height: 340px;
+    width: 300px;
+}
+
+
+
+/* ABOUT BOX SECTION START */
+
+.aboutBox {
+    display: flex;
+
+    margin: auto;
+    margin-top: 245px;
+    
+    position: relative;
+
+    height: 575px;
+    width: 70%;
+}
+
+.aboutVideo {
+    background-image: url(/Assets/Images/Video-Baackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    position: absolute;
+
+    top: 0;
+    left: 70px;
+
+    height: 480px;
+    width: 570px;
+} 
+
+#playButton {
+    height: 100px;
+    margin: auto;
+}
+
+.historyCard {
+    background-color: #f4efe6;
+
+    display: flex;
+
+    position: absolute;
+
+    bottom: 0;
+    right: 85px;
+
+    height: 480px;
+    width: 700px;
+
+    z-index: -1;
+}
+
+
+/* ABOUT BOX SECTION START */
+
+
+/* OFFER CONTENT END */
+
+
+
+/*  CLIENT BOX START */
+
+.clientFeedback {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 245px;
+
+    position: relative;
+
+    padding: 20px;
+
+    height: 800px;
+    width: 100%;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#clientFeedback {
+    color: #c6a16e;
+    font-size: 35px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#OWFC {
+    color: #c6a16e;
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: auto;
+}
+
+.slideShowContainer {
+    display: flex;
+
+    margin: auto;
+
+    height: 555px;
+    width: 1000px;
+}
+
+/* CLIENT BOX END */
+
+
+/* VISITING INFORMATION SECTION START */
+
+.visitBox {
+    display: flex;
+
+    margin: auto;
+    margin-top: 240px;
+
+    height: 1200px;
+    width: 100%;
+}
+
+.visitBoxLeftSide {
+    display: flex;
+
+    margin: auto;
+
+    height: 100%;
+    width: 50%;
+}
+
+.visitCard {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    padding: 20px;
+
+    height: 450px;
+    width: 500px;
+}
+
+.VisitcardTitleBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+#ourLocation {
+    color: #c6a16e;
+    font-size: 35px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#VOT {
+    color: #c6a16e;
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: auto;
+}
+
+#locationDescription {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+}
+
+#emails {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+}
+
+.openingHours {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+#openingHours {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+    margin-bottom: 20px;
+} 
+
+#openingHourOne {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+    margin-bottom: 10px;
+} 
+
+
+#openingHourTwo {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+} 
+
+
+
+
+.visitBoxRightSide {
+    background-image: url(/Assets/Images/Mr-Ego.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    display: flex;
+
+    margin: auto;
+
+    height: 95%;
+    width: 50%;
+}
+
+
+.tenPercentoffBox {
+    background-color: 
+    rgb(198,161,110, .5);
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    left: 240px;
+    bottom: 70px;
+
+    height: 290px;
+    width: 470px;
+}
+
+#tenPercentOff {
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+
+    margin: auto;
+}
+
+#getOfferButton {
+    background-color: black;
+
+    display: flex;
+
+    margin: auto;
+
+    height: 65px;
+    width: 170px;
+
+}
+
+
+#getOffer {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: auto;
+} 
+
+/* VISITING INFORMATION SECTION END */
+
+
+
+/* LOREM IPSUM SLIDE START */
+
+.loremIpsumSlide {
+    display: flex;
+
+    margin: auto;
+    margin-top: 180px;
+
+    height: 345px;
+    width: 100%;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#quoteTitle {
+    color: #c6a16e;
+    font-size: 35px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* LOREM IPSUM SLIDE END */
+
+/* BODY CONTENT END */
+
+
+
+/* FOOTER CONTENT START */
+
+
+.footer {
+    display: flex;
+
+    position: relative;
+
+    margin: auto;
+    margin-top: 180px;
+
+    height: 910px;
+    width: 100%;
+}
+
+
+.discountSantaClaus {
+    background-image: url(/Assets/Images/Discount-Santa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    display: flex;
+
+    margin: auto;
+    margin-left: 0px;
+
+    height: 100%;
+    width: 60%;
+}
+
+
+.footerInfoCard {
+    background-color:#c6a16e;
+
+    display: flex;
+
+    position: absolute;
+
+    right: 0px;
+    bottom: 0px;
+
+    height: 600px;
+    width: 1350px;
+
+    z-index: 1;
+}
+
+/*FOOTER CONTENT END */
+
+
+@media only screen and (max-width: 1920px) {
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .navBar {
+        padding: 20px;
+    }
+
+    #logo {
+        margin-left: 36px;
+    }
+
+    .navLinkContainer {
+        margin-right: 0px;
+    }
+
+    .visitUs {
+        display: none;
+    }
+
+    .bigHeroboard {
+        height: 630px;
+        width: 93%;
+    }
+
+    #slogan {
+        font-size: 50px;
+    }
+
+    #PFYP {
+        font-size: 20px;
+    }
+
+    .aboutBox {
+        width: 70%;
+    }
+
+    .aboutVideo {
+
+        margin: auto;
+
+    }
+
+    .historyCard {
+
+        margin: auto;
+    }
+
+    .tenPercentoffBox {
+        left: 140px;
+
+        padding: 40px;
+        
+        height: 245px;
+        width: 450px;
+    }
+
+    #tenPercentOff {
+        font-size: 60px;
+    }
+
+    .footer {
+        height: 1600px;
+    }
+
+    .footerInfoCard {
+        height: 100%;
+    }
+
+    .discountSantaClaus {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .navLinkContainer {
+        display: none;
+    }
+
+    #menuIcon {
+        display: block;
+    }
+
+    .bigHeroboard {
+        height: 630px;
+        width: 93%;
+    }
+
+    #slogan {
+        font-size: 50px;
+    }
+
+    #PFYP {
+        font-size: 20px;
+    }
+
+    .offerBox {
+        margin-top: 100px;
+        height: 1550px;
+    }
+
+    .offerCardThree {
+        position: absolute;
+
+        top: 880px;
+    }
+
+    .aboutBox {
+        flex-direction: column;
+
+        gap: 50px;
+        height: 980px;
+    }
+
+    .aboutVideo {
+        position: static;
+        margin: auto;
+        width: 90%;
+    }
+
+    .historyCard {
+        position: static;
+        margin: auto;
+        width: 90%;
+    }
+
+    .tenPercentoffBox {
+        left: 70px;
+
+        padding: 40px;
+        
+        height: 200px;
+        width: 290px;
+    }
+
+    #tenPercentOff {
+        font-size: 40px;
+    }
+
+    .footer {
+        height: 1400px;
+    }
+
+    .footerInfoCard {
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .navLinkContainer {
+        display: none;
+    }
+
+    #menuIcon {
+        display: block;
+    }
+
+    .bigHeroboard {
+        height: 500px;
+        width: 100%;
+    }
+
+    #slogan {
+        font-size: 50px;
+    }
+
+    #PFYP {
+        font-size: 20px;
+    }
+
+    .offerBox {
+        margin-top: 100px;
+        height: 1550px;
+    }
+
+    .offerCardThree {
+        position: absolute;
+
+        top: 880px;
+    }
+
+    .aboutBox {
+        flex-direction: column;
+
+        gap: 50px;
+
+        height: 980px;
+        width: 100%;
+    }
+
+    .aboutVideo {
+        position: static;
+        margin: auto;
+        width: 85%;
+    }
+
+    .historyCard {
+        position: static;
+        margin: auto;
+        width: 85%;
+    }
+
+
+
+    .slideShowContainer {
+        width: 100%;
+    }
+
+
+    .visitBox {
+        border: 1px solid white;
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .visitBoxLeftSide, .visitBoxRightSide {
+        width: 100%;
+    }
+
+    .visitBoxRightSide {
+        height: 2200px;
+    }
+
+    .tenPercentoffBox {
+        top: 40%;
+        left: 30%;
+
+        padding: 40px;
+        
+        height: 200px;
+        width: 290px;
+    }
+
+    #tenPercentOff {
+        font-size: 40px;
+    }
+
+    .footer {
+        height: 1400px;
+    }
+
+    .footerInfoCard {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #logo {
+        margin-left: 0px;
+    }
+
+    .bigHeroboard {
+        height: 500px;
+        width: 100%;
+    }
+
+    #slogan {
+        font-size: 50px;
+    }
+
+    #PFYP {
+        font-size: 20px;
+    }
+
+    .titleBox {
+        text-align: center;
+    }
+
+    .offerBox {
+        margin-top: 100px;
+        height: 1550px;
+
+        display: none;
+    }
+
+    .offferCard {
+        width: 90%;
+    }
+
+    .offferCard > .displayImage1, .displayImage2, .displayImage3  {
+        height: 100%;
+        width: 90%;
+    }
+
+    .offferCard > #number, #cardTitle, #offDescription {
+        display: none;
+    }
+
+
+    .offerBox2 {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+        height: 2500px;
+    }
+
+    .offerContent2 {
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+
+        height: 2500px;
+    }
+
+    .offerContent {
+        display: flex;
+    }
+
+    .offerCardThree {
+        position: static;
+    }
+
+    .aboutBox {
+        flex-direction: column;
+
+        gap: 50px;
+
+        margin-top: 100px;
+
+        height: 980px;
+        width: 100%;
+    }
+
+    .aboutVideo {
+        position: static;
+        margin: auto;
+        width: 85%;
+    }
+
+    .historyCard {
+        position: static;
+        margin: auto;
+        width: 85%;
+    }
+
+
+
+    .slideShowContainer {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+
+    .visitBox {
+        flex-direction: column;
+
+        margin-top: 100px;
+        height: 1200px;
+    }
+
+    .visitBoxLeftSide, .visitBoxRightSide {
+        width: 100%;
+    }
+
+    .visitBoxRightSide {
+        height: 2200px;
+    }
+
+    .tenPercentoffBox {
+        top: 40%;
+        left: 30%;
+
+        padding: 40px;
+        
+        height: 200px;
+        width: 290px;
+    }
+
+    #tenPercentOff {
+        font-size: 40px;
+    }
+
+    .footer {
+        height: 1400px;
+    }
+
+    .footerInfoCard {
+        height: 750px;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .discoverCard {
+        left: 20px;
+    }
+    .discoverCard > #slogan {
+        font-size: 45px;
+    }
+
+    #WW0 {
+        font-size: 20px;
+    }
+
+    #WWOTC {
+        font-size: 30px;
+    }
+
+
+    #clientFeedback {
+        font-size: 20px;
+    }
+
+    #OWFC {
+        font-size: 30px;
+    }
+
+
+    #ourLocation {
+        font-size: 20px;
+    }
+
+    #VOT {
+        font-size: 30px;
+    }
+
+
+    .visitBox {
+        height: 1500px;
+    }
+
+     #VOT {
+        font-size: 35px;
+    }
+
+    #locationDescription, #emails {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .tenPercentoffBox {
+        position: static;
+        margin: auto;
+    }
+
+
+}
