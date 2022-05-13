@@ -72,7 +72,6 @@ body {
 }
 
 .navLinkContainer {
-    border: 1px solid black;
     /* background-color: #463f33;
     border-radius: 20px;
 
@@ -88,6 +87,7 @@ body {
 #navLink {
     color: black;
     transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #navLink a {
@@ -740,7 +740,9 @@ body {
 
 
 @media only screen and (max-width: 1920px) {
-
+    #logo {
+        margin-left: 67px;
+    }
 }
 
 
