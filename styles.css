@@ -298,15 +298,17 @@ body {
     margin: auto;
     margin-top: 0px;
 
-    gap: 105px;
+    width: 70%;
+
 }
 
 .outerBox {
-    border: 3px solid red;
     display: flex;
+
+    margin: auto;
     
     height: 100%;
-    width: 430px;
+    width: 400px;
 }
 
 #number {
@@ -316,31 +318,26 @@ body {
     display: flex;
 
     margin: auto;
-    margin-bottom: 55%;
+    margin-bottom: 66%;
     
     padding: 20px;
 
     height: 30px;
     width: 30px;
+
+    transition: 0.5s;
 }
 
-#offerDescription {
-    color: grey;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-
-    margin: auto;
-    margin-top: 10px;
+#number:hover {
+    background-color: white;
 }
 
 .offferCard {
-    border: 1px solid white;
     margin: auto;
 
 
     height: 640px;
-    width: 350px;
+    width: 300px;
 }
 
 #CardTitle {
@@ -354,6 +351,18 @@ body {
     line-height: 1.5em;
 }  
 
+#offerDescription {
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+    margin-top: 10px;
+
+    line-height: 1.5em;
+}
+
 .displayImage1 {
     background-image: url(/Assets/Images/Offer-Display-Image-1);
     background-position: center;
@@ -364,7 +373,7 @@ body {
 
 
     height: 340px;
-    width: 350px;
+    width: 300px;
 }
 
 .displayImage2 {
@@ -377,7 +386,7 @@ body {
 
 
     height: 340px;
-    width: 350px;
+    width: 300px;
 }
 
 .displayImage3 {
@@ -390,7 +399,7 @@ body {
 
 
     height: 340px;
-    width: 350px;
+    width: 300px;
 }
 
 
@@ -789,6 +798,11 @@ body {
     #logo {
         margin-left: 67px;
     }
+
+    .bigHeroboard {
+        height: 630px;
+        width: 93%;
+    }
 }
 
 
@@ -822,8 +836,50 @@ body {
         font-size: 20px;
     }
 
+    .offerContent {
+        width: 100%;
+        margin: auto;
+    }
+
+    .outerBox {
+        display: flex;
+        
+        height: 100%;
+        width: 400px;
+    }
+    
+    #number {
+        background-color: #c6a16e;
+        border-radius: 50%;
+    
+        display: flex;
+    
+        margin: auto;
+        margin-bottom: 66%;
+        
+        padding: 20px;
+    
+        height: 30px;
+        width: 30px;
+    
+        transition: 0.5s;
+    }
+    
+    #number:hover {
+        background-color: white;
+    }
+    
+    .offferCard {
+        border: 1px solid white;
+        margin: auto;
+    
+    
+        height: 640px;
+        width: 100%;
+    }
+
     .aboutBox {
-        width: 70%;
+        width: 100%;
     }
 
     .aboutVideo {
@@ -838,7 +894,7 @@ body {
     }
 
     .tenPercentoffBox {
-        left: 140px;
+        left: 45px;
 
         padding: 40px;
         
@@ -863,6 +919,8 @@ body {
     }
 }
 
+
+
 @media only screen and (max-width: 1050px) {
     .navLinkContainer {
         display: none;
@@ -883,17 +941,6 @@ body {
 
     #PFYP {
         font-size: 20px;
-    }
-
-    .offerBox {
-        margin-top: 100px;
-        height: 1550px;
-    }
-
-    .offerCardThree {
-        position: absolute;
-
-        top: 880px;
     }
 
     .aboutBox {
