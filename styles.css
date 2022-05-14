@@ -210,7 +210,6 @@ body {
 /* BODY CONTENT START */
 
 .mainContent {
-    border: 1px solid red;
     background-image: url();
     background-position: center;
     background-size: cover;
@@ -293,6 +292,7 @@ body {
 }
 
 .offerContent {
+    border: 1px solid white;
     display: flex;
 
     margin: auto;
@@ -301,13 +301,58 @@ body {
     gap: 105px;
 }
 
+.outerBox {
+    border: 3px solid red;
+    display: flex;
+    
+    height: 100%;
+    width: 430px;
+}
+
+#number {
+    background-color: #c6a16e;
+    border-radius: 50%;
+
+    display: flex;
+
+    margin: auto;
+    margin-bottom: 55%;
+    
+    padding: 20px;
+
+    height: 30px;
+    width: 30px;
+}
+
+#offerDescription {
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+    margin-top: 10px;
+}
+
 .offferCard {
+    border: 1px solid white;
     margin: auto;
 
 
     height: 640px;
-    width: 300px;
+    width: 350px;
 }
+
+#CardTitle {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    font-family:'Monsterat', sans-serif;
+
+    margin: auto;
+    margin-top: 30px;
+    line-height: 1.5em;
+}  
 
 .displayImage1 {
     background-image: url(/Assets/Images/Offer-Display-Image-1);
@@ -319,7 +364,7 @@ body {
 
 
     height: 340px;
-    width: 300px;
+    width: 350px;
 }
 
 .displayImage2 {
@@ -332,7 +377,7 @@ body {
 
 
     height: 340px;
-    width: 300px;
+    width: 350px;
 }
 
 .displayImage3 {
@@ -345,7 +390,7 @@ body {
 
 
     height: 340px;
-    width: 300px;
+    width: 350px;
 }
 
 
@@ -960,7 +1005,6 @@ body {
     }
 
     .offerContent2 {
-        border: 1px solid white;
         display: flex;
         flex-direction: column;
 
@@ -1004,7 +1048,6 @@ body {
 
 
     .visitBox {
-        border: 1px solid white;
         flex-direction: column;
         height: 1200px;
     }
@@ -1092,7 +1135,6 @@ body {
     }
 
     .offerContent2 {
-        border: 1px solid white;
         display: flex;
         flex-direction: column;
 
@@ -1232,3 +1274,64 @@ body {
 
 
 }
+
+
+@media only screen and (max-width: 360px) {
+    .discoverCard {
+        left: 10px;
+    }
+    .discoverCard > #slogan {
+        font-size: 40px;
+    }
+    .discoverCard > .miniSlogan > #PFYP {
+        font-size: 20px;
+    }
+    .discoverCard > .miniSlogan > #longGoldDash {
+       width: 40px;
+    }
+
+    #WW0 {
+        font-size: 20px;
+    }
+
+    #WWOTC {
+        font-size: 30px;
+    }
+
+
+    #clientFeedback {
+        font-size: 20px;
+    }
+
+    #OWFC {
+        font-size: 30px;
+    }
+
+
+    #ourLocation {
+        font-size: 20px;
+    }
+
+    #VOT {
+        font-size: 30px;
+    }
+
+
+    .visitBox {
+        height: 1500px;
+    }
+
+     #VOT {
+        font-size: 35px;
+    }
+
+    #locationDescription, #emails {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .tenPercentoffBox {
+        position: static;
+        margin: auto;
+    }
+} 
