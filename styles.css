@@ -232,7 +232,6 @@ body {
 }
 
 /* OFFER CONTENT START */
-
 .offerBox {
     display: flex;
     flex-direction: column;
@@ -245,25 +244,34 @@ body {
     padding: 20px;
 
     height: 910px;
-    width: 100%;
+    width: 70%;
 }
 
-.offerBox2 {
+.offerContent {
+    border: 1px solid white;
     display: flex;
-    flex-direction: column;
 
     margin: auto;
-    margin-top: 635px;
-
-    position: relative;
-
-    padding: 20px;
-
-    height: 910px;
-    width: 100%;
-
-    display: none;
+    margin-top: 0px;
 }
+
+.outerBox {
+    display: flex;
+
+    margin: auto;
+    
+    height: 100%;
+    width: 400px;
+}
+
+.offferCard {
+    margin: auto;
+
+
+    height: 640px;
+    width: 300px;
+}
+
 
 .titleBox {
     display: flex;
@@ -291,25 +299,6 @@ body {
     margin: auto;
 }
 
-.offerContent {
-    border: 1px solid white;
-    display: flex;
-
-    margin: auto;
-    margin-top: 0px;
-
-    width: 70%;
-
-}
-
-.outerBox {
-    display: flex;
-
-    margin: auto;
-    
-    height: 100%;
-    width: 400px;
-}
 
 #number {
     background-color: #c6a16e;
@@ -332,13 +321,6 @@ body {
     background-color: white;
 }
 
-.offferCard {
-    margin: auto;
-
-
-    height: 640px;
-    width: 300px;
-}
 
 #CardTitle {
     color: white;
@@ -373,7 +355,7 @@ body {
 
 
     height: 340px;
-    width: 300px;
+    width: 100%;
 }
 
 .displayImage2 {
@@ -386,7 +368,7 @@ body {
 
 
     height: 340px;
-    width: 300px;
+    width: 100%;
 }
 
 .displayImage3 {
@@ -399,9 +381,56 @@ body {
 
 
     height: 340px;
-    width: 300px;
+    width: 100%;
 }
 
+
+
+
+.offerBoxSecondary {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 635px;
+
+    position: relative;
+
+    padding: 20px;
+
+    height: 910px;
+    width: 100%;
+
+    display: none;
+}
+
+.offerContentSecondary {
+    border: 1px solid white;
+    display: flex;
+
+    margin: auto;
+    margin-top: 0px;
+
+    width: 70%;
+
+}
+
+.outerBoxSecondary {
+    display: flex;
+
+    margin: auto;
+    
+    height: 100%;
+    width: 400px;
+}
+
+.offferCardSecondary {
+    margin: auto;
+
+
+    height: 640px;
+    width: 300px;
+}
 
 
 /* ABOUT BOX SECTION START */
@@ -799,14 +828,14 @@ body {
         margin-left: 67px;
     }
 
-    .bigHeroboard {
-        height: 630px;
-        width: 93%;
+    .visitBox {
+        display: block;
     }
+
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px)  {
     .navBar {
         padding: 20px;
     }
@@ -820,6 +849,10 @@ body {
     }
 
     .visitUs {
+        display: none;
+    }
+
+    #menuIcon {
         display: none;
     }
 
@@ -927,7 +960,7 @@ body {
     }
 
     #menuIcon {
-        display: block;
+        display: none;
     }
 
     .bigHeroboard {
@@ -985,7 +1018,7 @@ body {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and  (min-width: 768px) and (max-width: 1050px) {
     .navLinkContainer {
         display: none;
     }
@@ -1024,47 +1057,24 @@ body {
 
     .offerBox {
         margin-top: 100px;
-        height: 1550px;
+        height: 3550px;
+        width: 100%;
 
-        display: none;
+    }
+
+    .offerContent {
+        width: 100%;
     }
 
     .offferCard {
         width: 90%;
     }
 
-    .offferCard > .displayImage1, .displayImage2, .displayImage3  {
-        height: 100%;
-        width: 90%;
-    }
-
-    .offferCard > #number, #cardTitle, #offDescription {
-        display: none;
-    }
 
 
-    .offerBox2 {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
 
-        height: 2500px;
-    }
 
-    .offerContent2 {
-        display: flex;
-        flex-direction: column;
-
-        height: 2500px;
-    }
-
-    .offerContent {
-        display: flex;
-    }
-
-    .offerCardThree {
-        position: static;
-    }
+    
 
     .aboutBox {
         flex-direction: column;
@@ -1093,22 +1103,16 @@ body {
         width: 100%;
     }
 
-
-    .visitBox {
-        flex-direction: column;
-        height: 1200px;
-    }
-
     .visitBoxLeftSide, .visitBoxRightSide {
         width: 100%;
     }
 
     .visitBoxRightSide {
-        height: 2200px;
+        height: 1200px;
     }
 
     .tenPercentoffBox {
-        top: 40%;
+        bottom: 5%;
         left: 30%;
 
         padding: 40px;
@@ -1130,7 +1134,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
     #logo {
         margin-left: 0px;
     }
@@ -1266,7 +1270,7 @@ body {
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (min-width: 420px) and (max-width: 576px) {
     .discoverCard {
         left: 20px;
     }
@@ -1323,7 +1327,7 @@ body {
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 420px) {
     .discoverCard {
         left: 10px;
     }
